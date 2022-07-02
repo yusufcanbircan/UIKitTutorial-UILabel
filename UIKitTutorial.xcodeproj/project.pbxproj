@@ -56,15 +56,39 @@
 		E454B8B72870794100CA3DA4 /* UIKitTutorial */ = {
 			isa = PBXGroup;
 			children = (
-				E454B8B82870794100CA3DA4 /* AppDelegate.swift */,
-				E454B8BA2870794100CA3DA4 /* SceneDelegate.swift */,
-				E454B8BC2870794100CA3DA4 /* ViewController.swift */,
-				E454B8BE2870794100CA3DA4 /* Main.storyboard */,
-				E454B8C12870794300CA3DA4 /* Assets.xcassets */,
-				E454B8C32870794300CA3DA4 /* LaunchScreen.storyboard */,
-				E454B8C62870794300CA3DA4 /* Info.plist */,
+				E454B8CE28707D7700CA3DA4 /* Controllers */,
+				E454B8CD28707D5900CA3DA4 /* Views */,
+				E454B8CC28707C8F00CA3DA4 /* SupportingFiles */,
 			);
 			path = UIKitTutorial;
+			sourceTree = "<group>";
+		};
+		E454B8CC28707C8F00CA3DA4 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				E454B8C62870794300CA3DA4 /* Info.plist */,
+				E454B8C32870794300CA3DA4 /* LaunchScreen.storyboard */,
+				E454B8C12870794300CA3DA4 /* Assets.xcassets */,
+				E454B8BA2870794100CA3DA4 /* SceneDelegate.swift */,
+				E454B8B82870794100CA3DA4 /* AppDelegate.swift */,
+			);
+			name = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		E454B8CD28707D5900CA3DA4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E454B8BE2870794100CA3DA4 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E454B8CE28707D7700CA3DA4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E454B8BC2870794100CA3DA4 /* ViewController.swift */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
