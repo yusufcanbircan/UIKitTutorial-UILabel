@@ -17,7 +17,6 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         errorLabel.isHidden = true
-        
     }
     
     @IBAction func didTapLoginButton(_ sender:UIButton){
@@ -26,19 +25,21 @@ class ViewController: UIViewController {
             passwordTextField.isHidden = false
             errorLabel.isHidden = true
         } else {
+            
             if usernameTextField.text != "yusufcanbircan"{
                 errorLabel.text = "Error! Username is wrong!"
                 errorLabel.isHidden = false
-            } else if !(passwordTextField.isHidden), passwordTextField.text == "123456"{
+            } else if !(passwordTextField.isHidden), passwordTextField.text == "123"{
                 activityIndicatorView.startAnimating()
-                errorLabel.isHidden = true
+                errorLabel.text = "Successfully Logged In!"
+                if errorLabel.isHidden{
+                    errorLabel.isHidden = false
+                }
             } else {
                 errorLabel.text = "Error! Password is wrong!"
                 errorLabel.isHidden = false
             }
         }
-        
     }
-
 }
 
